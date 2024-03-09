@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "rg-microservices-shd-we"
-    storage_account_name = "stmicroservicesshdwe"
-    container_name       = "scmicroservicesshdwe"
+    resource_group_name  = "<resource_group_name>"
+    storage_account_name = "<storage_account_name>"
+    container_name       = "<container_name>"
     key                  = "terraform/tutorial/tf-state-tutorial-"
   }
 }
