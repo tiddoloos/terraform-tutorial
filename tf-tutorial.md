@@ -248,7 +248,7 @@ terraform workspace list
 </details>
 <br/>
 
-![Fetching the Terraform State of the 'dev' workspace](../images/tf_state_rg.png)
+![Fetching the Terraform State of the 'dev' workspace](./images/tf_state_rg.png)
 
 To conclude the Terraform workspace tutorial, here are some key take aways:
 
@@ -277,7 +277,7 @@ To deploy to each environment, including the shared environment, we have designe
 The deployment to each environment is illustrated in the image below. For each folder, the selected workspace is indicated by the "*" sign. The .tfvars file matching the workspace name is used for deploying infrastructure to each environment.
 > **_NOTE:_** We don't deploy any configuration from the `sketch` folder in the CI/CD pipeline. We only use this folder te explore and develop Terraform code.
 
-![Terraform deployments to the different resource groups](../images/tf_deployments.png)
+![Terraform deployments to the different resource groups](./images/tf_deployments.png)
 
 ## Infrastructure Development Workflow
 
