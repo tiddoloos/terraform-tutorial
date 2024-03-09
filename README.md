@@ -1,1 +1,1 @@
-Terraform tutorial for the microservices team at Woonstad Rotterdam
+Terraform tutorial for Team Microservices (TMS) at Woonstad Rotterdam
