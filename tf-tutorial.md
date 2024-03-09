@@ -82,7 +82,7 @@ variable "region" {
 }
 
 variable "team_members" {
-  description = "A list of availability zones to distribute resources"
+  description = "Example list. Contains team member strings"
   type        = list(string)
   default     = ["wouter", "olgerik", "tomer", "tiddo"]
 }
